@@ -6,7 +6,7 @@ emojify for Python
 ~~~~~~~~~~~~~~~~~~
 """
 
-from emoji_translate import Translate
+from emoji_translate.emoji_translate import Translate
 
 __all__ = [
     'Translate'
