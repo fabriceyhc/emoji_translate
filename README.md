@@ -12,7 +12,7 @@ Example
 ```
 import emoji_translate
 
-emo = emojify.Translate(exact_match_only=False, randomize=True)
+emo = emoji_translate.Translate(exact_match_only=False, randomize=True)
 
 # basic translation
 print(emo.emojify('The house is on fire!'))     # > 'The 🏠 is on 🔥!'

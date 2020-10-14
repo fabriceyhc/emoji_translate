@@ -5,7 +5,7 @@ Unit tests for emoji-translate
 import emoji_translate
 
 def test_lookup():
-	emo = emojify.Translate(exact_match_only=True, randomize=False)
+	emo = emoji_translate.Translate(exact_match_only=True, randomize=False)
 	for emoji, desc in emo.emojis[['char', 'short_name']].values.tolist():
 	    desc_lookup  = emo.demojify(emoji)
 	    assert desc  == desc_lookup, "%s != %s" % (desc, desc_lookup)
