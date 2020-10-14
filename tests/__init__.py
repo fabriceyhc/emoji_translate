@@ -1,5 +1,5 @@
 """
-Unit tests for emoji-translate
+Unit tests for emoji_translate
 """
 
 from . import *

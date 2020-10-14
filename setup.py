@@ -51,9 +51,12 @@ setuptools.setup(
     license="MIT",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    packages=setuptools.find_packages(),
-    install_requires=['emoji'],
+    packages=setuptools.find_namespace_packages(),
+    install_requires=['emoji', 'pandas', 'numpy'],
     url=source,
     version=version,
     zip_safe=True,
+    # data_files=[('emoji_translate/data', ['emoji_translate/data/emoji_utf8_lexicon.txt', 
+    #                                       'emoji_translate/data/emojis.json', 
+    #                                       'emoji_translate/data/merged_emojis.json'])]
 )

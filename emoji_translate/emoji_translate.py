@@ -5,7 +5,10 @@ import random
 
 from emoji import unicode_codes, get_emoji_regexp, emoji_lis
 
-class Translate:
+from os import path
+pwd = path.abspath(path.dirname(__file__))
+
+class Translator:
     def __init__(self, exact_match_only=True, 
         exclude_stopwords=True, randomize=True):
         self.exact_match_only = exact_match_only 
@@ -19,7 +22,7 @@ class Translate:
         self.randomize = randomize
 
         # load emojis to DataFrame
-        self.emojis = pd.read_json('data/merged_emojis.json')
+        self.emojis = pd.read_json(path.join(pwd, 'data/merged_emojis.json'))
 
     # emojify
     def emojify(self, string):

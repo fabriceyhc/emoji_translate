@@ -1,5 +1,5 @@
 emoji_translate
-=======
+===============
 
 Emoji translation for Python.  This project relies on previous works, like [emoji](https://github.com/carpedm20/emoji), [emojilib](https://github.com/muan/emojilib), and [vaderSentiment](https://github.com/cjhutto/vaderSentiment).
 
@@ -10,9 +10,9 @@ Example
 -------
 
 ```
-import emoji_translate
+from emoji_translate.emoji_translate import Translator
 
-emo = emoji_translate.Translate(exact_match_only=False, randomize=True)
+emo = Translator(exact_match_only=False, randomize=True)
 
 # basic translation
 print(emo.emojify('The house is on fire!'))     # > 'The 🏠 is on 🔥!'
@@ -34,7 +34,6 @@ Installation
 Via pip:
 
 ```
-pip install emoji
 pip install emoji_translate
 ```
 
