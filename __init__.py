@@ -11,10 +11,10 @@ from emoji_translate import Translate
 __all__ = [
     'Translate'
 ]
-__version__ = '0.1.4'
+__version__ = '0.1.0'
 __author__ = 'Fabrice Harel-Canada'
 __email__ = 'fabriceyhc@gmail.com'
-__source__ = 'https://github.com/fabriceyhc/emoji-translate'
+__source__ = 'https://github.com/fabriceyhc/emoji_translate'
 __license__ = '''
 MIT License
 

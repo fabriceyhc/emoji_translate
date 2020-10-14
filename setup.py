@@ -23,7 +23,7 @@ with open(path.join(this_directory, '__init__.py'), encoding='utf-8') as f:
             break
 
 setuptools.setup(
-    name='emoji-translate',
+    name='emoji_translate',
     author=author,
     author_email=email,
     classifiers=[
@@ -46,13 +46,13 @@ setuptools.setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     description="emoji-translate for Python",
-    keywords=['emoji', 'translate', 'emoji-translate'],
+    keywords=['emoji', 'translate', 'emoji_translate'],
     include_package_data=True,
     license="MIT",
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(),
-    install_requires=['emoji>=0.5'],
+    install_requires=['emoji'],
     url=source,
     version=version,
     zip_safe=True,

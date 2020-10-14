@@ -1,4 +1,4 @@
-Emojify
+emoji_translate
 =======
 
 Emoji translation for Python.  This project relies on previous works, like [emoji](https://github.com/carpedm20/emoji), [emojilib](https://github.com/muan/emojilib), and [vaderSentiment](https://github.com/cjhutto/vaderSentiment).
@@ -41,7 +41,7 @@ pip install emoji_translate
 From master branch:
 
 ```
-$ git clone https://github.com/fabriceyhc/emoji-translate.git
+$ git clone https://github.com/fabriceyhc/emoji_translate.git
 $ cd emoji-translate
 $ python setup.py install
 ```
