@@ -6,7 +6,7 @@ emojify for Python
 ~~~~~~~~~~~~~~~~~~
 """
 
-from emojify import Translate
+from emoji_translate import Translate
 
 __all__ = [
     'Translate'
@@ -14,7 +14,7 @@ __all__ = [
 __version__ = '0.1.0'
 __author__ = 'Fabrice Harel-Canada'
 __email__ = 'fabriceyhc@gmail.com'
-__source__ = 'https://github.com/fabriceyhc/emojify'
+__source__ = 'https://github.com/fabriceyhc/emoji-translate'
 __license__ = '''
 MIT License
 

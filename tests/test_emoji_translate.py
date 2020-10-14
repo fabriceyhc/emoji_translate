@@ -2,7 +2,7 @@
 Unit tests for emoji-translate
 """
 
-import emojify
+import emoji_translate
 
 def test_lookup():
 	emo = emojify.Translate(exact_match_only=True, randomize=False)
