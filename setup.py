@@ -52,7 +52,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(),
-    install_requires=['emoji'],
+    install_requires=['emoji>=0.5'],
     url=source,
     version=version,
     zip_safe=True,
