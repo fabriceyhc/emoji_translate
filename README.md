@@ -42,7 +42,7 @@ From master branch:
 
 ```
 $ git clone https://github.com/fabriceyhc/emoji_translate.git
-$ cd emoji-translate
+$ cd emoji_translate
 $ python setup.py install
 ```
 

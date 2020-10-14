@@ -45,7 +45,7 @@ setuptools.setup(
         'Topic :: Multimedia :: Graphics :: Presentation',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    description="emoji-translate for Python",
+    description="Emoji translation for Python",
     keywords=['emoji', 'translate', 'emoji_translate'],
     include_package_data=True,
     license="MIT",
