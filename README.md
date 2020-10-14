@@ -34,7 +34,8 @@ Installation
 Via pip:
 
 ```
-pip install emoji_translate --upgrade
+pip install emoji
+pip install emoji_translate
 ```
 
 From master branch:
