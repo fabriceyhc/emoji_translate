@@ -1,0 +1,10 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+
+# distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# notebooks
+*.ipynb
