@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 author = email = source = version = None
-with open(path.join(this_directory, '__init__.py'), encoding='utf-8') as f:
+with open(path.join(this_directory, 'emoji_translate', '__init__.py'), encoding='utf-8') as f:
     for line in f:
         if line.strip().startswith('__version__'):
             version = line.split('=')[1].strip().replace('"', '').replace("'", '')
