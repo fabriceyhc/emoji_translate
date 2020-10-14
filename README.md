@@ -10,9 +10,9 @@ Example
 -------
 
 ```
-import emojify
+import emoji_translate
 
-emo = emojify.Emojify(exact_match_only=False, randomize=True)
+emo = emojify.Translate(exact_match_only=False, randomize=True)
 
 # basic translation
 print(emo.emojify('The house is on fire!'))     # > 'The 🏠 is on 🔥!'
@@ -34,14 +34,14 @@ Installation
 Via pip:
 
 ```
-pip install emoji --upgrade
+pip install emoji_translate --upgrade
 ```
 
 From master branch:
 
 ```
-$ git clone https://github.com/fabriceyhc/emojify.git
-$ cd emojify
+$ git clone https://github.com/fabriceyhc/emoji-translate.git
+$ cd emoji-translate
 $ python setup.py install
 ```
 
