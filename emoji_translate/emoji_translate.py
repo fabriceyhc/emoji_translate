@@ -119,10 +119,10 @@ class Translator:
             lambda x: p_rng[0] <= x <= p_rng[1])].sample(num)['char'].values.tolist()
     
     def add_positive_emojis(self, string, num=1):
-        return string + ' ' + ''.join(self.sample_emoji_by_polarity([(1/3), 1], num))
+        return string + ' ' + ''.join(self.sample_emoji_by_polarity([0.05, 1], num))
 
     def add_negative_emojis(self, string, num=1):
-        return string + ' ' + ''.join(self.sample_emoji_by_polarity([-1, -(1/3)], num))
+        return string + ' ' + ''.join(self.sample_emoji_by_polarity([-1, -0.05], num))
 
     def add_neutral_emojis(self, string, num=1):
-        return string + ' ' + ''.join(self.sample_emoji_by_polarity([-(1/3), (1/3)], num))
+        return string + ' ' + ''.join(self.sample_emoji_by_polarity([-0.05, 0.05], num))
