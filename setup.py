@@ -52,7 +52,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_namespace_packages(),
-    install_requires=['emoji', 'pandas', 'numpy'],
+    install_requires=['emoji==1.7.0', 'pandas', 'numpy'],
     url=source,
     version=version,
     zip_safe=True,

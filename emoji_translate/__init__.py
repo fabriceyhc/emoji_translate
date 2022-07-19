@@ -11,7 +11,7 @@ from emoji_translate.emoji_translate import *
 __all__ = [
     'Translator'
 ]
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'Fabrice Harel-Canada'
 __email__ = 'fabriceyhc@gmail.com'
 __source__ = 'https://github.com/fabriceyhc/emoji_translate'
